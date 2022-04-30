@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tiffany.mk
+
+COMMON_LUNCH_CHOICES := \
+	aosp_tiffany-user \
+	aosp_tiffany-userdebug \
+	aosp_tiffany-eng
