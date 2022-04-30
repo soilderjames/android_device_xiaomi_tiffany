@@ -78,7 +78,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/tiffany/tiffany-vendor.mk)
-
-# Call the camera setup
-$(call inherit-product, vendor/xiaomi/MiuiCamera/MiuiCamera-vendor.mk)
-$(call inherit-product, vendor/xiaomi/MiuiCamera/tiffany.mk)
